@@ -1,0 +1,23 @@
+let nome = prompt("Qual é o nome?");
+
+if(nome === "joao" ){
+       console.log("professor");
+}else if(nome === "nadieli"){
+    console.log("professora");
+}else{
+    console.log("alunos");
+}
+
+// Faça um codigo que leia uma cor. Se ela for azu, diga: cor fria. se for vermelha, diga: cor natural. se for outra cor, diga: cor invalida
+
+let cor = prompt("Qual a cor?");
+
+if (cor==="azul"){
+    console.log("cor fria");
+}else if(cor==="verde"){
+    console.log("cor quente");
+}else if (cor==="verde"){
+    console.log("cor narural");
+}else{
+    console.log("cor invalida");
+}
